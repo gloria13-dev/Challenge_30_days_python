@@ -56,22 +56,7 @@ print("\nThe first three items are: ",first_three_items,"\nThe last three items 
 del food_stuff_tp #Deleting the food_staff_tp tuple completely
 
 #number 7
-nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway',
-'Sweden')
+nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway','Sweden')
 print('Estonia' in nordic_countries) # checking if 'Estonia' is a nordic country
 print('Iceland' in nordic_countries) # checking if 'Iceland' is a nordic country
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
