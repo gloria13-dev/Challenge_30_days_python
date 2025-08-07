@@ -20,22 +20,16 @@ date = now.strftime("%m/%d/%Y, %H:%M:%S")
 print(f'\nthe current date using the "%m/%d/%Y, %H:%M:%S" format is: {date}')
 
 #3
-date_str = "5 December, 2019"
-converted_date = datetime.strptime(date_str, "%d %B, %Y")
-print("\nConverted date:", converted_date)
+date_string = "5 December, 2019"
+converted_date = datetime.strptime(date_string, "%d %B, %Y")
+print("\nTime string to time: ", converted_date)
 
 #4: Time difference until New Year
 new_year = datetime(2026, 1, 1)
 time_left = new_year - now
-print("\nTime left until New Year:", time_left)
+print("\nThe Time left until New Year is: ", time_left)
 
 #5
 past = datetime(1970, 1, 1)
 diff = now - past
 print("\nTime difference between Jan 1, 1970 and now is: ", past)
-
-
-
-
-
-
