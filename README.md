@@ -15,7 +15,4 @@ email : kpogoyayra0@gmail.com
 
 ### OBJECTIFS DU CHALLENGE
 
-Maîtriser tout en python après ces 30 jours du challenge
-
-
-
+Maîtriser tous les concepts du langage python après ces 30 jours de challenge
